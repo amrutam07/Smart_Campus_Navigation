@@ -1,0 +1,23 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment & secrets
+.env
+.env.local
+
+# Auto-generated SQLite database (seeded from data/campus_seed.json)
+data/campus.db
+data/*.db-journal
+
+# Streamlit local cache & OS files
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
